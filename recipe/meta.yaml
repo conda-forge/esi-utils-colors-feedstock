@@ -1,5 +1,5 @@
 {% set name = "esi-utils-colors" %}
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/esi_utils_colors-{{ version }}.tar.gz
-  sha256: 9036f1877f8494afce7cb8ab5fc731f1b487a346122132212a8c8817e6760548
+  sha256: 91a69b6201558454db61ee73292c959781730adb88afa3f4f5575a96c0308435
 
 build:
   noarch: python
